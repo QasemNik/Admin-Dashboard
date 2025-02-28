@@ -1,0 +1,14 @@
+.analytics {
+  text-align: center;
+  margin: 20px;
+}
+
+.analytics h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.analytics p {
+  font-size: 1.2rem;
+  color: #555;
+}

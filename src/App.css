@@ -1,0 +1,38 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.signup {
+  display: inline-block;
+  background-color: #5a5d6380; 
+  color: rgba(255, 255, 255, 0.957); /* متن سفید */
+  font-size: 16px; /* اندازه متن */
+  font-weight: bold; /* ضخیم کردن متن */
+  padding: 10px; /* فاصله داخلی (padding) */
+  border: none; /* حذف خط حاشیه */
+  border-radius: 5px; /* گوشه‌های گرد */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  transition: background-color 0.3s, transform 0.2s; /* انیمیشن تغییر رنگ و زوم */
+  text-align: center; /* متن در وسط قرار گیرد */
+  text-decoration: none; /* حذف زیرخط لینک */
+}
+
+.signup:hover {
+  background-color: #424244; /* رنگ تیره‌تر هنگام هاور */
+}
+
+.active {
+  background-color: #afb6b0; /* رنگ تیره‌تر هنگام کلیک */
+}
+
+
